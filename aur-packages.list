@@ -1,3 +1,23 @@
+##### Dependencies ######
+mingw-w64-tools
+esbuild             # dep -> webcord
+perl-encode-detect  # dep -> webmin
+perl-authen-pam     # dep -> webmin
+libglibutil         # dep -> libgbider
+libgbinder          # dep -> waydroid-git
+ncurses5-compat-libs #dep -> opencl-amd
+#celt # ???
+python-steamgriddb  # dep -> bottles
+patool              # dep -> bottles
+icoextract          # dep -> bottles
+fvs                 # dep -> bottles
+vkbasalt-cli        # dep -> bottles
+python-ffmpy        # dep -> zspotify
+python-librespot    # dep -> zspotify
+python-music-tag    # dep -> zspotify
+python-pyogg        # dep -> zspotify
+python-m3u8         # dep -> twitch-dl
+
 ########## GUI Apps ##########
 spotify
 #polymc --> dead
@@ -12,8 +32,7 @@ mprime
 syncthing-gtk
 flatseal
 goverlay
-python2     # make dep -> electron13
-electron13  # make dep -> sonixd
+electron13-bin  # make dep -> sonixd
 sonixd
 whatpulse
 btrfs-assistant
@@ -68,6 +87,7 @@ hyfetch
 obs-vaapi
 twitch-dl
 aurutils
+amdfand-bin
 
 ########## Miscellaneous ##########
 snapper-rollback
@@ -83,23 +103,3 @@ jellyfin-web-bin
 webmin
 nginx-mainline-mod-fancyindex
 navidrome-bin
-
-##### Dependencies ######
-mingw-w64-tools
-esbuild             # dep -> webcord
-perl-encode-detect  # dep -> webmin
-perl-authen-pam     # dep -> webmin
-libglibutil         # dep -> libgbider
-libgbinder          # dep -> waydroid-git
-ncurses5-compat-libs #dep -> opencl-amd
-#celt # ???
-python-steamgriddb  # dep -> bottles
-patool              # dep -> bottles
-icoextract          # dep -> bottles
-fvs                 # dep -> bottles
-vkbasalt-cli        # dep -> bottles
-python-ffmpy        # dep -> zspotify
-python-librespot    # dep -> zspotify
-python-music-tag    # dep -> zspotify
-python-pyogg        # dep -> zspotify
-python-m3u8         # dep -> twitch-dl

@@ -9,22 +9,18 @@ zenmonitor-git
 zenpower-dkms-git
 ryzenadj-git
 cpupower-gui-git
-# butter-git
+# butter-git # I don't use it anymore.
 waydroid-git
-evdi-git # dep -> displaylink (aur-packages)
+evdi-git # dep -> displaylink (aur-packages.list)
 mesa-git
 lib32-mesa-git
 dxvk-mingw-git
 xemu-git
-upscaler-git # + realesrgan-ncnn-vulkan (aur-packages)
+upscaler-git # + realesrgan-ncnn-vulkan (aur-packages.list)
 vkd3d-proton-mingw-git
 edid-decode-git
 ladybird-git
 umr-git
 
-#bottles has "weird" versioning and so sometimes new updates get reported as being older
-bottles
+bottles # has "weird" versioning and so sometimes new updates get reported as being older
 
-########## Pluton server mašina ##########
-#Weird versioning???? čistý fet...
-amdfand-bin
