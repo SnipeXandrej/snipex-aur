@@ -1,0 +1,105 @@
+########## GUI Apps ##########
+spotify
+#polymc --> dead
+prismlauncher
+eagle
+ripcord
+roomeqwizard
+soulseekqt
+popsicle
+geekbench
+mprime
+syncthing-gtk
+flatseal
+goverlay
+python2     # make dep -> electron13
+electron13  # make dep -> sonixd
+sonixd
+whatpulse
+btrfs-assistant
+btrfsmaintenance # opt-dep -> btrfs-assistant
+webcord
+droidcam
+inochi-creator
+jamesdsp
+linux-wifi-hotspot
+minecraft-launcher
+rpi-imager
+yuzu-mainline-bin
+ice-ssb
+webapp-manager
+looking-glass
+looking-glass-rc
+looking-glass-git
+onlyoffice-bin
+microsoft-edge-stable-bin
+
+########## General stuff ##########
+# amdgpu-pro-libgl
+# lib32-amdgpu-pro-libgl
+opencl-amd
+overdue
+autofs
+battop
+ocs-url
+downgrade
+pacseek
+droidcam-obs-plugin
+systemd-boot-pacman-hook
+displaylink # + evdi
+# inxi # has been moved from AUR to an official repo
+cli-visualizer
+usbasp-udev # udev rule to not require the use of root when flashing
+fastfetch
+find-the-command
+paru
+yay
+uxplay
+ttf-ms-fonts
+realesrgan-ncnn-vulkan # dep -> upscaler-git
+scream
+zpaq
+waydroid-image-gapps
+waydroid-image
+cfs-zen-tweaks
+vkbasalt
+lib32-vkbasalt
+hyfetch
+obs-vaapi
+twitch-dl
+aurutils
+
+########## Miscellaneous ##########
+snapper-rollback
+qt5ct-kde
+snapd
+python-pyclip       # dep -> waydroid-git
+chkservice
+drm_info
+
+########## Pluton server mašina ##########
+jellyfin-server-bin
+jellyfin-web-bin
+webmin
+nginx-mainline-mod-fancyindex
+navidrome-bin
+
+##### Dependencies ######
+mingw-w64-tools
+esbuild             # dep -> webcord
+perl-encode-detect  # dep -> webmin
+perl-authen-pam     # dep -> webmin
+libglibutil         # dep -> libgbider
+libgbinder          # dep -> waydroid-git
+ncurses5-compat-libs #dep -> opencl-amd
+#celt # ???
+python-steamgriddb  # dep -> bottles
+patool              # dep -> bottles
+icoextract          # dep -> bottles
+fvs                 # dep -> bottles
+vkbasalt-cli        # dep -> bottles
+python-ffmpy        # dep -> zspotify
+python-librespot    # dep -> zspotify
+python-music-tag    # dep -> zspotify
+python-pyogg        # dep -> zspotify
+python-m3u8         # dep -> twitch-dl

@@ -1,0 +1,30 @@
+# These packages always get rebuilt, even if nothing has changed to the source code
+anbox-modules-dkms-git
+lightly-git
+lightlyshaders-git
+mangohud-git
+snapper-gui-git
+spotify-adblock-git
+zenmonitor-git
+zenpower-dkms-git
+ryzenadj-git
+cpupower-gui-git
+# butter-git
+waydroid-git
+evdi-git # dep -> displaylink (aur-packages)
+mesa-git
+lib32-mesa-git
+dxvk-mingw-git
+xemu-git
+upscaler-git # + realesrgan-ncnn-vulkan (aur-packages)
+vkd3d-proton-mingw-git
+edid-decode-git
+ladybird-git
+umr-git
+
+#bottles has "weird" versioning and so sometimes new updates get reported as being older
+bottles
+
+########## Pluton server mašina ##########
+#Weird versioning???? čistý fet...
+amdfand-bin
