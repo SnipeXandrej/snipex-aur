@@ -32,8 +32,7 @@ mprime
 syncthing-gtk
 flatseal
 goverlay
-electron13-bin  # make dep -> sonixd
-sonixd
+# sonixd-bin
 whatpulse
 btrfs-assistant
 btrfsmaintenance # opt-dep -> btrfs-assistant
