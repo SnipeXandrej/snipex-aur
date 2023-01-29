@@ -1,6 +1,7 @@
 #!/bin/zsh
-PKG_LIST=./aur-packages-git.list
-CHROOT_DIR=./buildchroot
+WORK_DIR=$(pwd)
+CHROOT_DIR=${WORK_DIR}/buildchroot
+PKG_LIST=${WORK_DIR}/aur-packages-git.list
 MAKEPKG_CONF=/etc/aurutils/makepkg-snipex.conf
 
 _packages=$(cat ${PKG_LIST} | grep -E "^[^#]" | wc -l)
