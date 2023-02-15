@@ -51,6 +51,7 @@ looking-glass-rc
 looking-glass-git
 onlyoffice-bin
 microsoft-edge-stable-bin
+parsec-bin
 
 ########## General stuff ##########
 # amdgpu-pro-libgl
