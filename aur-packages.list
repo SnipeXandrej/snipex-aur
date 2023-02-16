@@ -52,6 +52,7 @@ looking-glass-git
 onlyoffice-bin
 microsoft-edge-stable-bin
 parsec-bin
+octopi
 
 ########## General stuff ##########
 # amdgpu-pro-libgl
