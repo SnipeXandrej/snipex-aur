@@ -89,6 +89,7 @@ obs-vaapi
 twitch-dl
 aurutils
 amdfand-bin
+binder_linux-dkms
 
 ########## Miscellaneous ##########
 snapper-rollback
