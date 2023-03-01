@@ -12,6 +12,7 @@ patool              # dep -> bottles
 icoextract          # dep -> bottles
 fvs                 # dep -> bottles
 vkbasalt-cli        # dep -> bottles
+python-pathvalidate # dep -> bottles
 python-ffmpy        # dep -> zspotify
 python-librespot    # dep -> zspotify
 python-music-tag    # dep -> zspotify
@@ -53,6 +54,7 @@ onlyoffice-bin
 microsoft-edge-stable-bin
 parsec-bin
 octopi
+hardinfo
 
 ########## General stuff ##########
 # amdgpu-pro-libgl
