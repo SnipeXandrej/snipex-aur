@@ -3,6 +3,7 @@ anbox-modules-dkms-git
 lightly-git
 lightlyshaders-git
 mangohud-git
+lib32-mangohud-git
 snapper-gui-git
 spotify-adblock-git
 zenmonitor-git
@@ -23,6 +24,3 @@ ladybird-git
 umr-git
 waypipe-git
 yt-dlp-git
-
-bottles # has "weird" versioning and so sometimes new updates get reported as being older
-
