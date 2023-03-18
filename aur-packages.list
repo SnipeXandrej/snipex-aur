@@ -57,7 +57,7 @@ parsec-bin
 octopi
 alpm_octopi_utils
 hardinfo
-#bottles # removing it from automatically building because I built a patched package that works with gtk 4.10
+bottles
 
 ########## General stuff ##########
 # amdgpu-pro-libgl
