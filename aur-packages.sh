@@ -1,6 +1,6 @@
 #!/bin/zsh
 WORK_DIR=$(pwd)
-CHROOT_DIR=${WORK_DIR}/buildchroot
+CHROOT_DIR=/tmp_storage/linux/buildchroot
 PKG_LIST=${WORK_DIR}/aur-packages.list
 MAKEPKG_CONF=/etc/aurutils/makepkg-snipex.conf
 
