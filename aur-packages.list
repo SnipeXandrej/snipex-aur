@@ -38,6 +38,7 @@ sonixd
 whatpulse
 btrfs-assistant
 btrfsmaintenance # opt-dep -> btrfs-assistant
+electron24-bin # dep -> webcord 4.2.0
 webcord
 droidcam
 inochi-creator
