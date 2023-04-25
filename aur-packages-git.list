@@ -1,16 +1,13 @@
 # These packages always get rebuilt, even if nothing has changed to the source code
-anbox-modules-dkms-git
 lightly-git
 lightlyshaders-git
 mangohud-git
 lib32-mangohud-git
-snapper-gui-git
 spotify-adblock-git
 zenmonitor-git
 zenpower-dkms-git
 ryzenadj-git
 cpupower-gui-git
-# butter-git # I don't use it anymore.
 waydroid-git
 evdi-git # dep -> displaylink (aur-packages.list)
 mesa-git
@@ -21,9 +18,7 @@ upscaler-git # + realesrgan-ncnn-vulkan (aur-packages.list)
 vkd3d-proton-mingw-git
 edid-decode-git
 ladybird-git
-umr-git
 waypipe-git
-yt-dlp-git
 wondershaper-git
 sddm-git
 abaddon-git

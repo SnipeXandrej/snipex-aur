@@ -22,7 +22,6 @@ v4l2loopback-dc-dkms #dep -> droidcam
 
 ########## GUI Apps ##########
 spotify
-#polymc --> dead
 prismlauncher
 eagle
 ripcord
@@ -62,8 +61,6 @@ bottles
 openmpt
 
 ########## General stuff ##########
-# amdgpu-pro-libgl
-# lib32-amdgpu-pro-libgl
 opencl-amd
 overdue
 autofs
@@ -74,7 +71,6 @@ pacseek
 droidcam-obs-plugin
 systemd-boot-pacman-hook
 displaylink # + evdi
-# inxi # has been moved from AUR to an official repo
 cli-visualizer
 usbasp-udev # udev rule to not require the use of root when flashing
 fastfetch
@@ -84,7 +80,6 @@ yay
 uxplay
 ttf-ms-fonts
 realesrgan-ncnn-vulkan # dep -> upscaler-git
-#scream
 zpaq
 waydroid-image-gapps
 waydroid-image
@@ -113,7 +108,6 @@ lineageos-devel
 ########## Miscellaneous ##########
 snapper-rollback
 qt5ct-kde
-snapd
 python-pyclip       # dep -> waydroid-git
 chkservice
 drm_info
@@ -121,5 +115,4 @@ drm_info
 ########## Pluton server mašina ##########
 jellyfin-server-bin
 jellyfin-web-bin
-webmin
 nginx-mainline-mod-fancyindex
