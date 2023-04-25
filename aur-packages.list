@@ -6,7 +6,7 @@ perl-authen-pam     # dep -> webmin
 libglibutil         # dep -> libgbider
 libgbinder          # dep -> waydroid-git, python-gbinder
 python-gbinder      # dep -> waydroid-git
-ncurses5-compat-libs #dep -> opencl-amd
+ncurses5-compat-libs #dep -> opencl-amd, aosp-devel
 python-steamgriddb  # dep -> bottles
 patool              # dep -> bottles
 icoextract          # dep -> bottles
@@ -103,6 +103,12 @@ mangohud # dep -> goverlay // the package "mangohud" makes mangohud, mangoapp an
 cpulimit
 kwin-effects-sliding-notifications
 kwin-effects-yet-another-magic-lamp
+
+# AOSP Building
+lib32-ncurses5-compat-libs
+aosp-devel
+xml2
+lineageos-devel
 
 ########## Miscellaneous ##########
 snapper-rollback
