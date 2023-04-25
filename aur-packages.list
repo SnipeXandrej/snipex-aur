@@ -113,6 +113,5 @@ chkservice
 drm_info
 
 ########## Pluton server mašina ##########
-jellyfin-server-bin
-jellyfin-web-bin
+jellyfin # builds "jellyfin", "jellyfin-server" and "jellyfin-web"
 nginx-mainline-mod-fancyindex
