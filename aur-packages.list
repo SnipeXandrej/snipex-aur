@@ -97,6 +97,7 @@ mangohud # dep -> goverlay // the package "mangohud" makes mangohud, mangoapp an
 cpulimit
 kwin-effects-sliding-notifications
 kwin-effects-yet-another-magic-lamp
+firefox-pwa
 
 # AOSP Building
 lib32-ncurses5-compat-libs
