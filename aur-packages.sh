@@ -2,7 +2,7 @@
 WORK_DIR=$(pwd)
 CHROOT_DIR=/tmp_storage/linux/buildchroot
 PKG_LIST=${WORK_DIR}/aur-packages.list
-MAKEPKG_CONF=/etc/aurutils/makepkg-snipex.conf
+MAKEPKG_CONF=/etc/makepkg.conf
 
 _packages=$(cat ${PKG_LIST} | grep -E "^[^#]" | wc -l)
 for ((i=1; i<=_packages; i++));
