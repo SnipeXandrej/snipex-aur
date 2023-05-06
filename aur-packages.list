@@ -13,6 +13,7 @@ python-music-tag    # dep -> zspotify
 python-pyogg        # dep -> zspotify
 python-m3u8         # dep -> twitch-dl
 v4l2loopback-dc-dkms #dep -> droidcam
+cryptopp           # dep -> qnearbyshare-git
 
 ########## GUI Apps ##########
 spotify
