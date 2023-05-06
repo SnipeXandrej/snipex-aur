@@ -7,12 +7,6 @@ libglibutil         # dep -> libgbider
 libgbinder          # dep -> waydroid-git, python-gbinder
 python-gbinder      # dep -> waydroid-git
 ncurses5-compat-libs #dep -> opencl-amd, aosp-devel
-python-steamgriddb  # dep -> bottles
-patool              # dep -> bottles
-icoextract          # dep -> bottles
-fvs                 # dep -> bottles
-vkbasalt-cli        # dep -> bottles
-python-pathvalidate # dep -> bottles
 python-ffmpy        # dep -> zspotify
 python-librespot    # dep -> zspotify
 python-music-tag    # dep -> zspotify
@@ -57,7 +51,6 @@ parsec-bin
 octopi
 alpm_octopi_utils
 hardinfo
-bottles
 openmpt
 
 ########## General stuff ##########
