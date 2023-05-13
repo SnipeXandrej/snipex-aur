@@ -9,6 +9,8 @@ zenpower-dkms-git
 ryzenadj-git
 cpupower-gui-git
 waydroid-git
+waydroid-script-git
+waydroid-settings-git
 evdi-git # dep -> displaylink (aur-packages.list)
 mesa-git
 lib32-mesa-git
@@ -24,3 +26,4 @@ sddm-git
 abaddon-git
 navidrome-git
 qnearbyshare-git
+better-adb-sync-git
