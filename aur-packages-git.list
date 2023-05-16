@@ -1,6 +1,5 @@
 # These packages always get rebuilt, even if nothing has changed to the source code
 lightly-git
-lightlyshaders-git
 mangohud-git
 lib32-mangohud-git
 spotify-adblock-git
@@ -16,14 +15,12 @@ mesa-git
 lib32-mesa-git
 dxvk-mingw-git
 xemu-git
-upscaler-git # + realesrgan-ncnn-vulkan (aur-packages.list)
 vkd3d-proton-mingw-git
 edid-decode-git
 ladybird-git
 waypipe-git
 wondershaper-git
 sddm-git
-abaddon-git
 navidrome-git
 qnearbyshare-git
 better-adb-sync-git

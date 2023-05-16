@@ -1,8 +1,6 @@
 ##### Dependencies ######
-mingw-w64-tools
+mingw-w64-tools     # dep -> vkd3d-proton-mingw-git, dxvk-mingw-git
 esbuild             # dep -> webcord
-perl-encode-detect  # dep -> webmin
-perl-authen-pam     # dep -> webmin
 libglibutil         # dep -> libgbider
 libgbinder          # dep -> waydroid-git, python-gbinder
 python-gbinder      # dep -> waydroid-git
@@ -40,13 +38,9 @@ btrfsmaintenance # opt-dep -> btrfs-assistant
 electron24-bin # dep -> webcord 4.2.0
 webcord
 droidcam
-inochi-creator
 jamesdsp
 linux-wifi-hotspot
-minecraft-launcher
 rpi-imager
-yuzu-mainline-bin
-ice-ssb
 webapp-manager
 looking-glass
 looking-glass-rc
@@ -74,16 +68,13 @@ displaylink # + evdi
 cli-visualizer
 usbasp-udev # udev rule to not require the use of root when flashing
 fastfetch
-find-the-command
 paru
 yay
 uxplay
 ttf-ms-fonts
-realesrgan-ncnn-vulkan # dep -> upscaler-git
 zpaq
 waydroid-image-gapps
 waydroid-image
-cfs-zen-tweaks
 vkbasalt
 lib32-vkbasalt
 obs-vaapi
@@ -97,7 +88,6 @@ mangohud # dep -> goverlay // the package "mangohud" makes mangohud, mangoapp an
 cpulimit
 kwin-effects-sliding-notifications
 kwin-effects-yet-another-magic-lamp
-firefox-pwa
 
 # AOSP Building
 lib32-ncurses5-compat-libs
@@ -107,7 +97,6 @@ lineageos-devel
 
 ########## Miscellaneous ##########
 snapper-rollback
-qt5ct-kde
 python-pyclip       # dep -> waydroid-git
 chkservice
 drm_info
