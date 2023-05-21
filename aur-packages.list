@@ -1,6 +1,4 @@
 ##### Dependencies ######
-mingw-w64-tools     # dep -> vkd3d-proton-mingw-git, dxvk-mingw-git
-esbuild             # dep -> webcord
 libglibutil         # dep -> libgbider
 libgbinder          # dep -> waydroid-git, python-gbinder
 python-gbinder      # dep -> waydroid-git
@@ -35,8 +33,6 @@ sonixd
 whatpulse
 btrfs-assistant
 btrfsmaintenance # opt-dep -> btrfs-assistant
-electron24-bin # dep -> webcord 4.2.0
-webcord
 droidcam
 jamesdsp
 linux-wifi-hotspot
@@ -46,7 +42,6 @@ looking-glass
 looking-glass-rc
 looking-glass-git
 onlyoffice-bin
-microsoft-edge-stable-bin
 parsec-bin
 octopi
 alpm_octopi_utils

@@ -13,9 +13,7 @@ waydroid-settings-git
 evdi-git # dep -> displaylink (aur-packages.list)
 mesa-git
 lib32-mesa-git
-dxvk-mingw-git
 xemu-git
-vkd3d-proton-mingw-git
 edid-decode-git
 ladybird-git
 waypipe-git
