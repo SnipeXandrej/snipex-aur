@@ -27,7 +27,7 @@ for ((i=1; i<=_packages; i++));
 do
     echo " "
     echo $i/$_packages Building "$(i_package)"
-    AURDEST=$AUR_DIR aur sync --noview --chroot -D ${CHROOT_DIR} ${_REBUILD} -d snipex "$(i_package)" --makepkg-conf ${MAKEPKG_CONF} --margs --skipinteg --noconfirm
+    AURDEST=$AUR_DIR aur sync --noview --chroot -D ${CHROOT_DIR} ${_REBUILD} -d snipex $(i_package) --makepkg-conf ${MAKEPKG_CONF} --margs --skipinteg --noconfirm
 done
 
 
