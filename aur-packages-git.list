@@ -1,5 +1,4 @@
 # These packages always get rebuilt, even if nothing has changed to the source code
-lightly-git
 mangohud-git
 lib32-mangohud-git
 spotify-adblock-git
@@ -19,6 +18,5 @@ ladybird-git
 waypipe-git
 wondershaper-git
 sddm-git
-navidrome-git
 qnearbyshare-git
 better-adb-sync-git

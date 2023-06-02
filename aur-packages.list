@@ -2,6 +2,9 @@
 libglibutil         # dep -> libgbider
 libgbinder          # dep -> waydroid-git, python-gbinder
 python-gbinder      # dep -> waydroid-git
+python-pyclip       # dep -> waydroid-git
+python-inquirerpy   # dep -> waydroid-script-git
+python-pfzy         # dep -> waydroid-script-git
 ncurses5-compat-libs #dep -> opencl-amd, aosp-devel
 python-steamgriddb  # dep -> bottles
 patool              # dep -> bottles
@@ -13,8 +16,9 @@ python-ffmpy        # dep -> zspotify
 python-librespot    # dep -> zspotify
 python-music-tag    # dep -> zspotify
 python-pyogg        # dep -> zspotify
-python-m3u8         # dep -> twitch-dl
 v4l2loopback-dc-dkms #dep -> droidcam
+python-isounidecode # dep -> tauon-music-box
+python-pysdl2       # dep -> tauon-music-box
 
 ########## GUI Apps ##########
 spotify
@@ -53,7 +57,6 @@ tauon-music-box
 ########## General stuff ##########
 opencl-amd
 overdue
-autofs
 battop
 ocs-url
 downgrade
@@ -74,16 +77,20 @@ waydroid-image
 vkbasalt
 lib32-vkbasalt
 obs-vaapi
-twitch-dl
 aurutils
 amdfand-bin
-binder_linux-dkms
+binder_linux-dkms # needed for waydroid to work
 zspotify
 waydroid
 mangohud # dep -> goverlay // the package "mangohud" makes mangohud, mangoapp and mangohud-common
 cpulimit
 kwin-effects-sliding-notifications
 kwin-effects-yet-another-magic-lamp
+chkservice
+drm_info
+libvirt-hook-helper-git
+alacritty-themes
+hd-idle
 
 # AOSP Building
 lib32-ncurses5-compat-libs
@@ -91,12 +98,7 @@ aosp-devel
 xml2
 lineageos-devel
 
-########## Miscellaneous ##########
-snapper-rollback
-python-pyclip       # dep -> waydroid-git
-chkservice
-drm_info
-
 ########## Pluton server mašina ##########
 jellyfin # builds "jellyfin", "jellyfin-server" and "jellyfin-web"
+navidrome
 nginx-mainline-mod-fancyindex
