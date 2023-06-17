@@ -17,21 +17,26 @@ python-librespot    # dep -> zspotify
 python-music-tag    # dep -> zspotify
 python-pyogg        # dep -> zspotify
 v4l2loopback-dc-dkms #dep -> droidcam
-python-isounidecode # dep -> tauon-music-box
-python-pysdl2       # dep -> tauon-music-box
+clang-libs-minimal-git # dep -> clang-minimal-git, llvm-minimal-git
+llvm-libs-minimal-git  # dep -> llvm-minimal-git
+clang-minimal-git      # dep -> mesa-git
+llvm-minimal-git       # dep -> mesa-git
+evdi                # dep -> displaylink
+#python-isounidecode # dep -> tauon-music-box # remove in favor of flatpak
+#python-pysdl2       # dep -> tauon-music-box # remove in favor of flatpak
 
 ########## GUI Apps ##########
 spotify
 prismlauncher
 eagle
-ripcord
+ripcord # remove in favor of flatpak (later)
 roomeqwizard
 soulseekqt
-popsicle
+#popsicle # remove in favor of flatpak
 geekbench
 mprime
-syncthing-gtk
-flatseal
+#syncthing-gtk # remove in favor of flatpak
+#flatseal # remove in favor of flatpak
 goverlay
 sonixd
 whatpulse
@@ -40,19 +45,19 @@ btrfsmaintenance # opt-dep -> btrfs-assistant
 droidcam
 jamesdsp
 linux-wifi-hotspot
-rpi-imager
+#rpi-imager # remove in favor of flatpak
 webapp-manager
 looking-glass
 looking-glass-rc
 looking-glass-git
-onlyoffice-bin
-parsec-bin
+onlyoffice-bin # remove in favor of flatpak (later)
+parsec-bin # remove in favor of flatpak (later)
 octopi
 alpm_octopi_utils
 hardinfo
 bottles
 openmpt
-tauon-music-box
+#tauon-music-box # remove in favor of flatpak
 
 ########## General stuff ##########
 opencl-amd
@@ -63,7 +68,7 @@ downgrade
 pacseek
 droidcam-obs-plugin
 systemd-boot-pacman-hook
-displaylink # + evdi
+displaylink
 cli-visualizer
 usbasp-udev # udev rule to not require the use of root when flashing
 fastfetch
@@ -95,6 +100,7 @@ plasma5-wallpapers-wallpaper-engine
 
 # AOSP Building
 lib32-ncurses5-compat-libs
+sdl # dep -> aosp-devel
 aosp-devel
 xml2
 lineageos-devel
