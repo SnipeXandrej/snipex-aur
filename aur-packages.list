@@ -87,7 +87,6 @@ amdfand-bin
 binder_linux-dkms # needed for waydroid to work
 zspotify
 waydroid
-mangohud # dep -> goverlay // the package "mangohud" makes mangohud, mangoapp and mangohud-common
 cpulimit
 kwin-effects-sliding-notifications
 kwin-effects-yet-another-magic-lamp
