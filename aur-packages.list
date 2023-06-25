@@ -105,6 +105,5 @@ xml2
 lineageos-devel
 
 ########## Pluton server mašina ##########
-jellyfin # builds "jellyfin", "jellyfin-server" and "jellyfin-web"
 navidrome
 nginx-mainline-mod-fancyindex
