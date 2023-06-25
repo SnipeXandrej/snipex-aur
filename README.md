@@ -6,6 +6,6 @@ To use this repo you have to add
 ```
 [snipex]
 SigLevel = Optional
-Server = https://repo-mirror.snipex.sk/arch/$repo/$arch
+Server = https://repo-mirror.halveland.sk/arch/$repo/$arch
 ```
 to your `/etc/pacman.conf` configuration.
