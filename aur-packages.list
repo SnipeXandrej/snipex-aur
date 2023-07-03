@@ -17,10 +17,6 @@ python-librespot    # dep -> zspotify
 python-music-tag    # dep -> zspotify
 python-pyogg        # dep -> zspotify
 v4l2loopback-dc-dkms #dep -> droidcam
-clang-libs-minimal-git # dep -> clang-minimal-git, llvm-minimal-git
-llvm-libs-minimal-git  # dep -> llvm-minimal-git
-clang-minimal-git      # dep -> mesa-git
-llvm-minimal-git       # dep -> mesa-git
 evdi                # dep -> displaylink
 #python-isounidecode # dep -> tauon-music-box # remove in favor of flatpak
 #python-pysdl2       # dep -> tauon-music-box # remove in favor of flatpak
@@ -43,7 +39,7 @@ whatpulse
 btrfs-assistant
 btrfsmaintenance # opt-dep -> btrfs-assistant
 droidcam
-jamesdsp
+jamesdsp # remove in favor of flatpak (later)
 linux-wifi-hotspot
 #rpi-imager # remove in favor of flatpak
 webapp-manager

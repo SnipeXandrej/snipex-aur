@@ -10,8 +10,6 @@ waydroid-git
 waydroid-script-git
 waydroid-settings-git
 evdi-git # dep -> displaylink (aur-packages.list)
-mesa-git
-lib32-mesa-git
 #xemu-git # remove in favor of flatpak
 edid-decode-git
 ladybird-git
