@@ -54,6 +54,7 @@ hardinfo
 bottles
 openmpt
 #tauon-music-box # remove in favor of flatpak
+amdgpu_top
 
 ########## General stuff ##########
 opencl-amd
