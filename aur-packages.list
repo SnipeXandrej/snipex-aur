@@ -12,49 +12,54 @@ icoextract          # dep -> bottles
 fvs                 # dep -> bottles
 vkbasalt-cli        # dep -> bottles
 python-pathvalidate # dep -> bottles
-python-ffmpy        # dep -> zspotify
-python-librespot    # dep -> zspotify
-python-music-tag    # dep -> zspotify
+python-ffmpy        # dep -> zspotify, zotify-git
+python-librespot    # dep -> zspotify, zotify-git
+python-music-tag    # dep -> zspotify, zotify-git
 python-pyogg        # dep -> zspotify
+python-pwinput      # dep -> zotify-git
 v4l2loopback-dc-dkms #dep -> droidcam
 evdi                # dep -> displaylink
-#python-isounidecode # dep -> tauon-music-box # remove in favor of flatpak
-#python-pysdl2       # dep -> tauon-music-box # remove in favor of flatpak
+python-isounidecode # dep -> tauon-music-box
+python-pysdl2       # dep -> tauon-music-box
 
 ########## GUI Apps ##########
 spotify
 prismlauncher
 eagle
-ripcord # remove in favor of flatpak (later)
+ripcord
 roomeqwizard
 soulseekqt
-#popsicle # remove in favor of flatpak
+popsicle
 geekbench
 mprime
 #syncthing-gtk # remove in favor of flatpak
-#flatseal # remove in favor of flatpak
+flatseal
 goverlay
 sonixd
 whatpulse
 btrfs-assistant
 btrfsmaintenance # opt-dep -> btrfs-assistant
 droidcam
-jamesdsp # remove in favor of flatpak (later)
+jamesdsp
 linux-wifi-hotspot
-#rpi-imager # remove in favor of flatpak
+rpi-imager
 webapp-manager
 looking-glass
 looking-glass-rc
 looking-glass-git
-onlyoffice-bin # remove in favor of flatpak (later)
-parsec-bin # remove in favor of flatpak (later)
+onlyoffice-bin
+parsec-bin
 octopi
 alpm_octopi_utils
 hardinfo
 bottles
 openmpt
-#tauon-music-box # remove in favor of flatpak
+tauon-music-box
 amdgpu_top
+xemu
+gpu-viewer
+supersonic-desktop
+firefox-pwa
 
 ########## General stuff ##########
 opencl-amd
@@ -89,10 +94,10 @@ kwin-effects-sliding-notifications
 kwin-effects-yet-another-magic-lamp
 chkservice
 drm_info
-libvirt-hook-helper-git
 alacritty-themes
 hd-idle
 plasma5-wallpapers-wallpaper-engine
+zotify
 
 # AOSP Building
 lib32-ncurses5-compat-libs
@@ -102,5 +107,4 @@ xml2
 lineageos-devel
 
 ########## Pluton server mašina ##########
-navidrome
-nginx-mainline-mod-fancyindex
+#nginx-mainline-mod-fancyindex

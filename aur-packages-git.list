@@ -1,6 +1,4 @@
 # These packages always get rebuilt, even if nothing has changed to the source code
-mangohud-git
-lib32-mangohud-git
 spotify-adblock-git
 zenmonitor-git
 zenpower-dkms-git
@@ -10,7 +8,6 @@ waydroid-git
 waydroid-script-git
 waydroid-settings-git
 evdi-git # dep -> displaylink (aur-packages.list)
-#xemu-git # remove in favor of flatpak
 edid-decode-git
 ladybird-git
 waypipe-git
@@ -19,3 +16,5 @@ qnearbyshare-git
 better-adb-sync-git
 abaddon-git
 libvirt-hook-helper-git
+zotify-git
+xwaylandvideobridge-git
