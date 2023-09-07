@@ -1,6 +1,6 @@
 #!/bin/zsh
 WORK_DIR="$(pwd)"
-CHROOT_DIR="/tmp_storage/linux/buildchroot"
+CHROOT_DIR="/tmp/linux/buildchroot"
 MAKEPKG_CONF="/etc/makepkg.conf"
 AUR_DIR="${WORK_DIR}/AUR"
 PKG_LIST_PATH="${WORK_DIR}/aur-packages.list"

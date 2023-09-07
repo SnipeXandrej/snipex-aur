@@ -60,6 +60,7 @@ xemu
 gpu-viewer
 supersonic-desktop
 firefox-pwa
+discord-electron
 
 ########## General stuff ##########
 opencl-amd
@@ -100,11 +101,11 @@ plasma5-wallpapers-wallpaper-engine
 zotify
 
 # AOSP Building
-lib32-ncurses5-compat-libs
-sdl # dep -> aosp-devel
-aosp-devel
-xml2
-lineageos-devel
+#lib32-ncurses5-compat-libs
+#sdl # dep -> aosp-devel
+#aosp-devel
+#xml2
+#lineageos-devel
 
 ########## Pluton server mašina ##########
 #nginx-mainline-mod-fancyindex
