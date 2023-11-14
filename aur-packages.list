@@ -21,6 +21,9 @@ v4l2loopback-dc-dkms #dep -> droidcam
 evdi                # dep -> displaylink
 python-isounidecode # dep -> tauon-music-box
 python-pysdl2       # dep -> tauon-music-box
+python-pydub        # dep -> tidal-dl-git
+python-lyricsgenius # dep -> tidal-dl-git
+python-aigpy        # dep -> tidal-dl-git
 
 ########## GUI Apps ##########
 spotify
@@ -99,6 +102,8 @@ alacritty-themes
 hd-idle
 plasma5-wallpapers-wallpaper-engine
 zotify
+usbtop
+tuptime
 
 # AOSP Building
 #lib32-ncurses5-compat-libs
